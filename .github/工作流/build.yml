@@ -10,7 +10,7 @@ jobs:
         build_type: [Release]
         enable_ui: [on]
         include:
-          - os: ubuntu-latest
+          - os: windows-latest
             build_type: Release
             enable_ui: on
     steps:
